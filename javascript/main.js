@@ -38,7 +38,7 @@ function get_posts(choice){
                         "<a style='color: black; text-decoration: none' href='"+post_detail['post_url']+"'><p class='card-header'> "+post_detail['title']+"</p></a>" +
                         "<div class='card-body' style='padding: 1rem'>" +
                           "<div class='row'>" +
-                            "<div class='col-auto mr-auto'><a style='color: deepskyblue; text-decoration: none' href='"+post_detail['reddit_url']+"'>"
+                            "<div class='col-auto mr-auto'><a style='color: deepskyblue; text-decoration: none' href='"+"https://www.reddit.com/"+post_detail['reddit_url']+"'>"
                                     +post_detail['num_comments']+" comments</a></div> "+
                             "<div class='col-auto'>submitted by "+post_detail['author']+"</div> "+
                            "</div> " +
